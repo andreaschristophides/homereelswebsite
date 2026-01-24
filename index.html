@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CollectPal, coming soon on iOS</title>
+  <meta name="description" content="Track what you watch, rate it, and unlock smart insights across your movies and series. Coming soon on iOS." />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="icon" href="assets/screenshot-2026-01-24-at-9.04.32-pm.png" />
+</head>
+<body>
+  <div class="container">
+    <header class="nav">
+      <a class="brand" href="index.html" aria-label="CollectPal home">
+        <div class="icon">
+          <img src="assets/screenshot-2026-01-24-at-9.04.32-pm.png" alt="CollectPal icon" style="width:100%;height:100%;object-fit:cover" />
+        </div>
+        <div>
+          <div class="name">CollectPal</div>
+          <span class="sub">Movies, series, insights</span>
+        </div>
+      </a>
+
+      <nav class="navlinks" aria-label="Site">
+        <a class="pill" href="privacy.html">Privacy</a>
+        <a class="pill" href="terms.html">Terms</a>
+        <a class="pill" href="mailto:support@yourdomain.com">Contact</a>
+      </nav>
+    </header>
+
+    <main class="hero">
+      <section class="card hero-left">
+        <div class="kicker"><span class="dot"></span> Coming soon on iOS</div>
+
+        <h1>All your watching starts here.</h1>
+        <p class="lede">
+          Search, save, rate, and unlock smart insights for every movie and series you love.
+          Your collection stays yours, with a simple account to keep everything synced.
+        </p>
+
+        <div class="badges" role="list" aria-label="Highlights">
+          <div class="badge" role="listitem"><span class="t"></span> Save your <b>collection</b></div>
+          <div class="badge" role="listitem"><span class="p"></span> Build a <b>watch list</b></div>
+          <div class="badge" role="listitem"><span class="b"></span> Get <b>insights</b> you can use</div>
+        </div>
+
+        <div class="cta-row">
+          <a class="btn primary" href="#" onclick="alert('Coming soon. Add your App Store link here when ready.'); return false;">
+            <span>Notify me on launch</span>
+            <span style="opacity:.8">→</span>
+          </a>
+          <a class="btn" href="mailto:support@yourdomain.com?subject=CollectPal%20early%20access">Request early access</a>
+        </div>
+
+        <div style="margin-top:18px" class="note">
+          <strong>TMDB attribution:</strong> This product uses the TMDB API but is not endorsed or certified by TMDB.
+        </div>
+      </section>
+
+      <aside class="card hero-right" aria-label="Screenshots">
+        <div class="screens">
+          <figure class="phone-shot">
+            <span class="label">Light mode</span>
+            <img src="assets/screenshot-2026-01-24-at-9.04.53-pm.png" alt="CollectPal home screen, light mode" loading="lazy" />
+          </figure>
+          <figure class="phone-shot">
+            <span class="label">Dark mode</span>
+            <img src="assets/screenshot-2026-01-24-at-9.06.13-pm.png" alt="CollectPal collection screen, dark mode" loading="lazy" />
+          </figure>
+        </div>
+
+        <div class="screens">
+          <figure class="phone-shot">
+            <span class="label">Discover</span>
+            <img src="assets/screenshot-2026-01-24-at-9.04.58-pm.png" alt="Discover recommendations screen" loading="lazy" />
+          </figure>
+          <figure class="phone-shot">
+            <span class="label">Watch list</span>
+            <img src="assets/screenshot-2026-01-24-at-9.05.07-pm.png" alt="Watch list screen" loading="lazy" />
+          </figure>
+        </div>
+      </aside>
+    </main>
+
+    <section class="card section" aria-label="What you get">
+      <div class="grid3">
+        <div class="mini">
+          <div class="iconchip" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Keep it organised</h3>
+          <p>Save titles to your collection and watch list, add ratings, and find anything fast.</p>
+        </div>
+
+        <div class="mini">
+          <div class="iconchip" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M4 19V5m0 14h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M7 15l3-4 3 2 4-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Insights that feel personal</h3>
+          <p>Spot trends in your viewing, see what you rate highest, and understand your taste over time.</p>
+        </div>
+
+        <div class="mini">
+          <div class="iconchip" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M12 3l7 4v10l-7 4-7-4V7l7-4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M12 7v10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Your account, kept simple</h3>
+          <p>We store your email, a hashed password, and your saved title IDs and ratings, so you can sync across devices.</p>
+        </div>
+      </div>
+
+      <hr class="sep"/>
+
+      <div class="footer">
+        <div class="small">
+          <strong>CollectPal</strong>, coming soon on iOS.<br/>
+          Contact: <a href="mailto:support@yourdomain.com">support@yourdomain.com</a>
+        </div>
+        <div class="small">
+          <a class="pill" href="privacy.html">Privacy policy</a>
+          <a class="pill" href="terms.html">Terms</a>
+        </div>
+      </div>
+      <p class="small" style="margin-top:12px">
+        © <span id="year"></span> CollectPal. All rights reserved.
+      </p>
+    </section>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
